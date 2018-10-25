@@ -10,20 +10,14 @@ def add_element_to_end_of_array(array, element)
   array = ["Wow", "I", "am","really", "learning"]
   element= "arrays!"
   array << "arrays!"
-  array = ["I", "am", "really", "learning"]
-    element = "wow"
 end
 
 def add_element_to_start_of_array(array, element)
-  array = ["Wow", "I", "am","really", "learning"]
-  element= "arrays!"
-  array << "arrays!"
+array = ["I", "am", "really", "learning"]
+element = "wow"
 end
 
 def remove_element_from_end_of_array(array)
-  array = ["Wow", "I", "am","really", "learning"]
-  element= "arrays!"
-  array << "arrays!"
 end
 
 def remove_element_from_start_of_array(array)
